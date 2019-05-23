@@ -14,6 +14,9 @@ testsuite=$4
 commitId=$5
 report=$6
 importtype="junit"
+
+echo "#############################################"
+echo "Pushing Results to Appsurify"
 echo $report"*.xml\`"
 
 
