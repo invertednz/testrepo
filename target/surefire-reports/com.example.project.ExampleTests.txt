@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.example.project.ExampleTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.example.project.ExampleTests
+Test1  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Phone turned off
+	at com.example.project.ExampleTests.Test1(ExampleTests.java:28)
+
+Test2  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Phone turned off
+	at com.example.project.ExampleTests.Test2(ExampleTests.java:33)
+
+Test3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Phone turned off
+	at com.example.project.ExampleTests.Test3(ExampleTests.java:38)
+
+Test4[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Phone turned off
+	at com.example.project.ExampleTests.Test4(ExampleTests.java:46)
+
+Test5  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Real Defect
+	at com.example.project.ExampleTests.Test5(ExampleTests.java:52)
+
