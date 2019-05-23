@@ -20,7 +20,7 @@ echo "Pushing Results to Appsurify"
 echo $report"*.xml\`"
 
 
-for fileName in `ls -1 "$report*.xml"`
+for fileName in `ls -1 $report*.xml`
 	  do
 	    echo "call api for $fileName" 
 		import=`curl -X POST "$url/api/external/import/" -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' -H "token: $apiKey" -F "file=@$fileName" -F 'project_name'=$project -F 'test_suite_name'=$testsuite -F 'type'=$importtype -F 'commit'=$commitId`
