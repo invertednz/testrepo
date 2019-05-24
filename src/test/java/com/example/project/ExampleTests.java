@@ -24,32 +24,39 @@ class ExampleTests {
 	static int i=0;
 
 	@Test
-	public void Test1() {
-		fail("Phone turned off");
+	public void Area1Test1() {
+		//fail("Phone turned off");
 	}
 
 	@Test
-	public void Test2() {
-		fail("Phone turned off");
+	public void Area1Test2() {
+		//fail("Phone turned off");
 	}
 
 	@Test
-	public void Test3() {
-		fail("Phone turned off");
+	public void Area1Test3() {
+		//fail("Phone turned off");
 	}
 
 	@RepeatedTest(value = 2, name = "{displayName}")
-	@DisplayName("Test8")
-	public void Test4() {
+	public void Area1Test4() {
 		if(i==0){
 			i++;
-			fail("Phone turned off");
+			//fail("Phone turned off");
 		}
 	}
 
 	@Test
-	public void Test5() {
-		fail("Real Defect");
+	public void Area1Test5() {
+		//fail("Real Defect");
 	}
-
+	
+	@RepeatedTest(value = 500, name = "{displayName}")
+	public void Area2Test6() {
+		try {
+			Thread.sleep(1500);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }

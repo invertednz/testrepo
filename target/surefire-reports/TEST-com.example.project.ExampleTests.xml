@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.project.ExampleTests" time="0.042" tests="6" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.project.ExampleTests" time="0.027" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,8 @@
     <property name="user.country" value="NZ"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire458374753338956732\surefirebooter7926209317824579387.jar C:\Users\james\AppData\Local\Temp\surefire458374753338956732 2019-05-23T15-41-01_916-jvmRun1 surefire4942384668125808778tmp surefire_03343173516361131768tmp"/>
+    <property name="sun.java.command" value="C:\Users\james\AppData\Local\Temp\surefire1537084007304408496\surefirebooter501127018849033145.jar C:\Users\james\AppData\Local\Temp\surefire1537084007304408496 2019-05-24T14-41-29_696-jvmRun1 surefire5957027721579142530tmp surefire_0816622808469513545tmp"/>
+    <property name="test" value="com.example.project.ExampleTests#Area1Test1,com.example.project.ExampleTests#Area1Test2,com.example.project.ExampleTests#Area1Test3,com.example.project.ExampleTests#Area1Test4,com.example.project.ExampleTests#Area1Test5"/>
     <property name="surefire.test.class.path" value="C:\Github\testrepo\target\test-classes;C:\Github\testrepo\target\classes;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\james\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\james\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\james\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\james\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\james\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\james\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\james\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.2\junit-vintage-engine-5.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\james"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire458374753338956732\surefirebooter7926209317824579387.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\james\AppData\Local\Temp\surefire1537084007304408496\surefirebooter501127018849033145.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,30 +61,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Test1" classname="com.example.project.ExampleTests" time="0.014">
-    <failure message="Phone turned off" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Phone turned off
-	at com.example.project.ExampleTests.Test1(ExampleTests.java:28)
-</failure>
-  </testcase>
-  <testcase name="Test2" classname="com.example.project.ExampleTests" time="0">
-    <failure message="Phone turned off" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Phone turned off
-	at com.example.project.ExampleTests.Test2(ExampleTests.java:33)
-</failure>
-  </testcase>
-  <testcase name="Test3" classname="com.example.project.ExampleTests" time="0.001">
-    <failure message="Phone turned off" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Phone turned off
-	at com.example.project.ExampleTests.Test3(ExampleTests.java:38)
-</failure>
-  </testcase>
-  <testcase name="Test4[1]" classname="com.example.project.ExampleTests" time="0.001">
-    <failure message="Phone turned off" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Phone turned off
-	at com.example.project.ExampleTests.Test4(ExampleTests.java:46)
-</failure>
-  </testcase>
-  <testcase name="Test4[2]" classname="com.example.project.ExampleTests" time="0.001"/>
-  <testcase name="Test5" classname="com.example.project.ExampleTests" time="0.001">
-    <failure message="Real Defect" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Real Defect
-	at com.example.project.ExampleTests.Test5(ExampleTests.java:52)
-</failure>
-  </testcase>
+  <testcase name="Area1Test1" classname="com.example.project.ExampleTests" time="0.002"/>
+  <testcase name="Area1Test2" classname="com.example.project.ExampleTests" time="0"/>
+  <testcase name="Area1Test3" classname="com.example.project.ExampleTests" time="0.001"/>
+  <testcase name="Area1Test4[1]" classname="com.example.project.ExampleTests" time="0"/>
+  <testcase name="Area1Test4[2]" classname="com.example.project.ExampleTests" time="0.001"/>
+  <testcase name="Area1Test5" classname="com.example.project.ExampleTests" time="0"/>
 </testsuite>

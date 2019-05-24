@@ -19,4 +19,4 @@ echo $project
 echo $testsuite
 echo $commitId
 
-mvn test
+mvn -Dtest=com.example.project.ExampleTests#Area1Test1,com.example.project.ExampleTests#Area1Test2,com.example.project.ExampleTests#Area1Test3,com.example.project.ExampleTests#Area1Test4,com.example.project.ExampleTests#Area1Test5 test
