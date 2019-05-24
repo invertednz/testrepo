@@ -51,7 +51,7 @@ class ExampleTests {
 		//fail("Real Defect");
 	}
 	
-	@RepeatedTest(value = 500, name = "{displayName}")
+	@RepeatedTest(value = 350, name = "{displayName}")
 	public void Area2Test6() {
 		try {
 			Thread.sleep(1500);
