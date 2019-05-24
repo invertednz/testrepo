@@ -25,7 +25,7 @@ class ExampleTests {
 
 	@Test
 	public void Area1Test1() {
-		//fail("Phone turned off");
+		fail("Phone turned off");
 	}
 
 	@Test
@@ -42,13 +42,13 @@ class ExampleTests {
 	public void Area1Test4() {
 		if(i==0){
 			i++;
-			//fail("Phone turned off");
+			fail("Phone turned off");
 		}
 	}
 
 	@Test
 	public void Area1Test5() {
-		fail("Real Defect");
+		//fail("Real Defect");
 	}
 	
 	@RepeatedTest(value = 500, name = "{displayName}")
