@@ -48,7 +48,7 @@ class ExampleTests {
 
 	@Test
 	public void Area1Test5() {
-		//fail("Real Defect");
+		fail("Real Defect");
 	}
 	
 	@RepeatedTest(value = 500, name = "{displayName}")
